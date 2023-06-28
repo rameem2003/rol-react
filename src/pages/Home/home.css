@@ -1,0 +1,121 @@
+
+.banner{
+    margin-top: 80px;
+    height: 100vh;
+    background: url('../../assets/our_gallery/banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 0 80px;
+    background-attachment: fixed;
+}
+
+.banner h1{
+    font-size: 8rem;
+}
+
+.banner h3{
+    font-size: 3rem;
+}
+
+/* about */
+.about .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 0 80px; */
+}
+
+.about .container .left{
+    width: 40%;
+}
+
+.about .container .left .img-frame{
+    width: 90%;
+    height: 310px;
+    background-color: gray;
+    border-radius: 25px;
+    padding: 15px;
+}
+
+.about .container .left .img-frame img{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+.about .container .right{
+    width: 60%;
+}
+/* about end */
+
+
+/* responsive */
+@media screen and (max-width:500px) {
+
+    .title{
+        font-size: 18px;
+    }
+
+    .banner{
+        margin-top: 75px;
+        height: 36vh;
+        background-position: top center;
+        background-attachment: initial;
+        padding: 0 20px;
+    }
+    .banner h1{
+        font-size: 35px;
+        font-weight: normal;
+    }
+
+    .banner h3{
+        font-size: 20px;
+        font-weight: normal;
+    }
+
+
+    .about .container{
+        display: block;
+        padding: 0;
+    }
+
+    .about .container .left, .about .container .right{
+        width: 100%;
+        text-align: center;
+    }
+
+    .about .container .left .img-frame{
+        width: 100%;
+        height: 210px;
+        margin-bottom: 20px;
+        box-sizing: border-box;
+    }
+
+
+    .members .members-list{
+        display: block;
+    }
+
+    .members .members-list .member{
+        width: 100%;
+        margin: 20px auto;
+    }
+
+
+    .projects .project-box img{
+        height: 200px;
+    }
+
+    .project-inner h1{
+        font-size: 27px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+}
+/* responsive end */

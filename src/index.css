@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Acme', sans-serif;
+}
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.title{
+  text-align: center;
+  font-size: 30px;
+  margin: 20px 0;
+}
+
+

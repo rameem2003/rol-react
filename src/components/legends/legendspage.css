@@ -1,0 +1,93 @@
+.members{
+    margin-top: 100px;
+}
+.members .members-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.members .members-list .member{
+    width: 28%;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 25px;
+    background-color: yellow;
+    color: black;
+    text-align: center;
+}
+
+.members .members-list .member .img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.members .members-list .member .img img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.members .members-list .member .name{
+    margin: 20px 0;
+    font-size: 28px;
+}
+
+.members .members-list .member .name h3{
+    font-weight: bold;
+}
+
+.members .members-list .member .post{
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+.members .members-list .member .link{
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.members .members-list .member .link a{
+    text-decoration: none;
+    padding: 8px;
+    font-size: 20px;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+    font-size: 50px;
+}
+
+.members .members-list .member .link i{
+    color: white;
+}
+
+.members .members-list .member .link a:first-child{
+    background-color: blue;
+}
+
+.members .members-list .member .link a:last-child{
+    background-color: black;
+}
+
+
+
+@media screen and (max-width: 500px) {
+    .members .members-list{
+        display: block;
+    }
+
+    .members .members-list .member{
+        width: 100%;
+        margin: 20px auto;
+    }
+}
