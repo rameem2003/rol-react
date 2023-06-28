@@ -7,7 +7,7 @@ import Home from "./pages/Home/Home";
 import Appgallery from "./pages/appgallery/Appgallery";
 import Footer from "./components/footer/Footer";
 import Gallery from "./components/imegegallery/Gallery";
-import Appdetails from "./pages/appgallery/appdetails";
+import Appdetails from "./pages/appgallery/Appdetails";
 import Project from "./components/projects/Project";
 import LegendsPage from "./components/legends/LegendsPage";
 import Alert from "./components/alert/Alert";
