@@ -38,7 +38,7 @@ export const appsData = [
         appui2 : "/androidapps/rollite/app_ui_2.jpg",
         appIcon : "/androidapps/rollite/rollogoblue.png",
         des : "A member information app for Android OS. Lite weigh app and clean UI for better experience. Supports Android 7 and higher version of android",
-        appLink : "",
+        appLink : "/androidapps/tasbih_app/rollite.apk",
         downloadBtnColor : "#003C80"
     }
 
