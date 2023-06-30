@@ -25,7 +25,7 @@ function Surveilance_robot() {
 
   return (
     <div className="project_body">
-      <section className="banner">
+      <section className="project_banner">
         <div className="container">
           <h1>Android Control Robot Car</h1>
           <h3>With Surveilance Support</h3>
