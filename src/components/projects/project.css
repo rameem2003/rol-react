@@ -1,27 +1,91 @@
-.projects{
-    margin-top: 100px;
+.projects {
+  margin-top: 100px;
 }
-.projects .our_android_projects{
-    margin: 20px 0;
-    background-color: rgb(236, 236, 42);
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    border-radius: 10px;
-    /* display: none; */
+.projects .project-box {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
 }
 
-.projects .our_android_projects img{
-    width: 20%;
-    margin-bottom: 30px;
+.projects .project-box img {
+  width: 100%;
+  height: 600px;
+  transition: 0.5s linear;
 }
 
-.projects .our_android_projects a{
-    background-color: rgb(0, 0, 0);
-    text-decoration: none;
-    color: yellow;
-    padding: 10px 20px;
+.project-inner {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 40%;
+  background-color: rgba(0, 0, 0, 0.699);
+  transition: 0.5s linear;
+}
+.project-inner-text {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* opacity: 0;
+    visibility: hidden; */
+  transition: 0.5s linear;
+  z-index: 555555555;
+  width: 100%;
+}
+
+.project-inner h1 {
+  color: white;
+  font-size: 77px;
+  font-weight: bold;
+}
+
+.project-inner h2 a {
+  background-color: yellow;
+  text-decoration: none;
+  color: black;
+  padding: 10px 20px;
+}
+
+.projects .our_android_projects {
+  margin: 20px 0;
+  background-color: rgb(236, 236, 42);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+  /* display: none; */
+}
+
+.projects .our_android_projects img {
+  width: 20%;
+  margin-bottom: 30px;
+}
+
+.projects .our_android_projects a {
+  background-color: rgb(0, 0, 0);
+  text-decoration: none;
+  color: yellow;
+  padding: 10px 20px;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 500px) {
+  .projects .project-box img {
+    height: 200px;
+  }
+
+  .project-inner h1 {
     font-size: 20px;
+    text-align: center;
+    /* margin-bottom: 20px; */
+  }
+
+  .project-inner a {
+    padding: 10px 20px;
+    font-size: 15px;
+  }
 }
