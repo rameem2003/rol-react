@@ -28,7 +28,7 @@ function App() {
           <Route path="/android-control-surveilance-robot" element={<Surveilance_robot/>} />
         </Routes>
         <Footer />
-        <Alert />
+        {/* <Alert /> */}
       </BrowserRouter>
     </>
   );
