@@ -2,7 +2,7 @@ export const appsData = [
     {
         id : 1,
         themeClor : "#98EEA3",
-        appName : "Amar Zakat",
+        appName : "আমার যাকাত",
         pageTitle : "amarzakat",
         author : "Mahmmod Hassan Rameem",
         appLogo : "/androidapps/zakat_app/zakat.png",
