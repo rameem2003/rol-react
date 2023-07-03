@@ -42,6 +42,9 @@ function Navber() {
             <Link to="/legends">Legends</Link>
           </li>
           <li>
+            <Link to="/ourcontents">Our Contents</Link>
+          </li>
+          <li>
             <Link to="/projects">Our Projects</Link>
           </li>
           <li>

@@ -47,11 +47,11 @@ export const legendsData = [
         github : "https://github.com/MDMahabulAlam",
     },
 
-    {
-        name : "Reetu Rahman",
-        position : "Member",
-        img : "https://rameem2003.github.io/oursite/img/gallery/ritu_rahman.jpg",
-        facbook : "https://www.facebook.com/profile.php?id=100040018942337",
-        github : "",
-    }
+    // {
+    //     name : "Reetu Rahman",
+    //     position : "Member",
+    //     img : "https://rameem2003.github.io/oursite/img/gallery/ritu_rahman.jpg",
+    //     facbook : "https://www.facebook.com/profile.php?id=100040018942337",
+    //     github : "",
+    // }
 ]

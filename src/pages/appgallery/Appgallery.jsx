@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { appsData } from "../../appsData";
+import { appsData } from "../../data/appsData";
 
 import "./appgallery.css";
 import { Link } from "react-router-dom";

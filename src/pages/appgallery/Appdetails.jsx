@@ -2,7 +2,7 @@ import React, {useState, useEffect} from "react";
 import { useParams } from "react-router-dom";
 import "./appdetails.css";
 
-import { appsData } from "../../appsData";
+import { appsData } from "../../data/appsData";
 
 function Appdetails() {
   const { title } = useParams();

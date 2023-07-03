@@ -3,7 +3,7 @@ import { FaFacebook, FaGithub } from "react-icons/fa6";
 
 import "./legendspage.css";
 
-import { legendsData } from "../../legendsData";
+import { legendsData } from "../../data/legendsData";
 
 function LegendsPage() {
   const [legends, setLegedns] = useState(legendsData);

@@ -12,6 +12,8 @@ import Project from "./components/projects/Project";
 import LegendsPage from "./components/legends/LegendsPage";
 import Alert from "./components/alert/Alert";
 import Surveilance_robot from "./components/ACSR/Surveilance_robot";
+import OurContents from "./components/ourcontents/OurContents";
+import Error from "./components/Error/Error";
 
 function App() {
   return (
@@ -25,7 +27,9 @@ function App() {
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/legends" element={<LegendsPage />} />
           <Route path="/projects" element={<Project />} />
+          <Route path="/ourcontents" element={<OurContents/>} />
           <Route path="/android-control-surveilance-robot" element={<Surveilance_robot/>} />
+          <Route path="*" element={<Error/>} />
         </Routes>
         <Footer />
         {/* <Alert /> */}

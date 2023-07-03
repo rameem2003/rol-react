@@ -5,6 +5,7 @@ import legendsPic from "../../assets/our_gallery/gallery0.jpg";
 import Gallery from "../../components/imegegallery/Gallery";
 import Project from "../../components/projects/Project";
 import LegendsPage from "../../components/legends/LegendsPage";
+import OurContents from "../../components/ourcontents/OurContents";
 
 
 
@@ -59,6 +60,8 @@ function Home() {
       <Gallery/>
       
       <LegendsPage/>
+
+      <OurContents/>
 
       <Project/>
 

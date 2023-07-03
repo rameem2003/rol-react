@@ -18,7 +18,7 @@ import appAvatar from "../../assets/undraw_gaming_re_cma2.svg";
 import hostAvater from "../../assets/undraw_pair_programming_re_or4x.svg"
 import LegendsPage from "../legends/LegendsPage";
 
-import { parts } from "../../surveilance_robot_parts_data";
+import { parts } from "../../data/surveilance_robot_parts_data";
 
 function Surveilance_robot() {
   const [allparts, setParts] = useState(parts);
