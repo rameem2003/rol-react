@@ -3,6 +3,7 @@ import "./ourcontents.css";
 import { youtubeData } from "../../data/youtubePlalistData";
 import Content from "./content";
 
+
 function OurContents() {
     const [youTubeDatas, setYoutubeData] = useState(youtubeData);
   return (
@@ -15,7 +16,7 @@ function OurContents() {
 
           <div className="contents">
             {youTubeDatas.map((data) => {
-                return <Content img = {data.thumb} playlistName = {data.plalistName} playListCreator = {data.plalistCreator} link = {data.link} key={data.id}/>
+                return(<Content img = {data.thumb} playlistName = {data.plalistName} playListCreator = {data.plalistCreator} link = {data.link} key={data.id}/>)
             })}
           </div>
         </div>
