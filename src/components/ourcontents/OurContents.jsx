@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./ourcontents.css";
 import { youtubeData } from "../../data/youtubePlalistData";
-import Content from "./content";
+import Content from "../Content/Content";
 
 
 function OurContents() {
