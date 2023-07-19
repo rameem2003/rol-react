@@ -10,7 +10,8 @@ export const appsData = [
         appui2 : "/androidapps/zakat_app/app_ui_2.jpg",
         appIcon : "/androidapps/zakat_app/zakat.png",
         des : "A simple zakat calculation app for Android OS. Lite weight app and clean UI for better experience. Supports Android 7 and higher version of android",
-        appLink : "/androidapps/zakat_app/myZakat.apk",
+        // appLink : "/androidapps/zakat_app/myZakat.apk",
+        appLink : "https://play.google.com/store/apps/details?id=com.rol.zakat",
         downloadBtnColor : "#008000"
     },
     {
@@ -24,7 +25,8 @@ export const appsData = [
         appui2 : "/androidapps/tasbih_app/tasbih_2.jpg",
         appIcon : "/androidapps/tasbih_app/tasbih.png",
         des : "A simple Tasbih app for Android OS.Lite weight app and clean UI for better experience. Supports Android 7 and higher version of android",
-        appLink : "/androidapps/tasbih_app/tasbih_app.apk",
+        // appLink : "/androidapps/tasbih_app/tasbih_app.apk",
+        appLink : "https://play.google.com/store/apps/details?id=com.rol.mytasbih",
         downloadBtnColor : "#0000FF"
     },
     {
@@ -38,7 +40,8 @@ export const appsData = [
         appui2 : "/androidapps/rollite/app_ui_2.jpg",
         appIcon : "/androidapps/rollite/rollogoblue.png",
         des : "A member information app for Android OS. Lite weigh app and clean UI for better experience. Supports Android 7 and higher version of android",
-        appLink : "/androidapps/rollite/rollite.apk",
+        // appLink : "/androidapps/rollite/rollite.apk",
+        appLink : "https://play.google.com/store/apps/details?id=com.rol.rollite",
         downloadBtnColor : "#003C80"
     }
 

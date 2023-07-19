@@ -26,12 +26,16 @@
 
 .app_body .left a{
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     /* background-color: green; */
+    width: 225px;
     color: white;
     padding: 10px 20px;
     border-radius: 30px;
     margin-top: 20px;
-    display: inline-block;
+    /* display: inline-block; */
     font-size: 22px;
 }
 .app_body .left i{
@@ -61,5 +65,9 @@
     .app_body .right{
         width: 100%;
         text-align: center;
+    }
+
+    .app_body .left a{
+        margin: 20px auto;
     }
 }

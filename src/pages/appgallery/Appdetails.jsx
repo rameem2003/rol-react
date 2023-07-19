@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from "react";
 import { useParams } from "react-router-dom";
+import { FaAndroid } from "react-icons/fa6";
 import "./appdetails.css";
 
 import { appsData } from "../../data/appsData";
@@ -48,7 +49,7 @@ function Appdetails() {
             <h4>{appData.des}</h4>
 
             <a href={appData.appLink} style={{background : `${appData.downloadBtnColor}`}} className="downloadBtn">
-              <i className="fas fa-download"></i> Download App
+              <FaAndroid/> Go To Google Play
             </a>
           </div>
 
