@@ -15,6 +15,7 @@ function Appdetails() {
     appui2 : "",
     des : "",
     appLink : "",
+    appLinkStatus : "",
     downloadBtnColor : ""
   });
 
@@ -29,6 +30,7 @@ function Appdetails() {
         appui2 : appDetails[0].appui2,
         des : appDetails[0].des,
         appLink : appDetails[0].appLink,
+        appLinkStatus : appDetails[0].appLinkStatus,
         downloadBtnColor : appDetails[0].downloadBtnColor,
     })
   }, [])
@@ -49,7 +51,7 @@ function Appdetails() {
             <h4>{appData.des}</h4>
 
             <a href={appData.appLink} style={{background : `${appData.downloadBtnColor}`}} className="downloadBtn">
-              <FaAndroid/> Go To Google Play
+              <FaAndroid/> {appData.appLinkStatus}
             </a>
           </div>
 

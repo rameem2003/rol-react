@@ -12,6 +12,7 @@ export const appsData = [
         des : "A simple zakat calculation app for Android OS. Lite weight app and clean UI for better experience. Supports Android 7 and higher version of android",
         // appLink : "/androidapps/zakat_app/myZakat.apk",
         appLink : "https://play.google.com/store/apps/details?id=com.rol.zakat",
+        appLinkStatus : "Go To Google Play",
         downloadBtnColor : "#008000"
     },
     {
@@ -27,6 +28,7 @@ export const appsData = [
         des : "A simple Tasbih app for Android OS.Lite weight app and clean UI for better experience. Supports Android 7 and higher version of android",
         // appLink : "/androidapps/tasbih_app/tasbih_app.apk",
         appLink : "https://play.google.com/store/apps/details?id=com.rol.mytasbih",
+        appLinkStatus : "Go To Google Play",
         downloadBtnColor : "#0000FF"
     },
     {
@@ -42,7 +44,26 @@ export const appsData = [
         des : "A member information app for Android OS. Lite weigh app and clean UI for better experience. Supports Android 7 and higher version of android",
         // appLink : "/androidapps/rollite/rollite.apk",
         appLink : "https://play.google.com/store/apps/details?id=com.rol.rollite",
+        appLinkStatus : "Go To Google Play",
         downloadBtnColor : "#003C80"
-    }
+    },
+
+    {
+        id : 3,
+        themeClor : "#54a0ff",
+        appName : "Friend Meet",
+        pageTitle : "friendmeet",
+        author : "Abdul Baten",
+        appLogo : "/androidapps/friendMeet/friendMeetLogo.png",
+        appui1 : "/androidapps/friendMeet/app_ui_1.jpg",
+        appui2 : "/androidapps/friendMeet/app_ui_2.jpg",
+        appIcon : "/androidapps/friendMeet/friendMeetLogo.png",
+        des : "A one to one Vedio and Voice calling app for Android. Lite weigh app and clean UI for better experience.",
+        // appLink : "/androidapps/rollite/rollite.apk",
+        appLink : "#",
+        appLinkStatus : "App coming Soon",
+        downloadBtnColor : "#2e86de"
+    },
+
 
 ]
