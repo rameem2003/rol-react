@@ -53,7 +53,7 @@ export const appsData = [
         themeClor : "#54a0ff",
         appName : "Friend Meet",
         pageTitle : "friendmeet",
-        author : "Abdul Baten",
+        author : "",
         appLogo : "/androidapps/friendMeet/friendMeetLogo.png",
         appui1 : "/androidapps/friendMeet/app_ui_1.jpg",
         appui2 : "/androidapps/friendMeet/app_ui_2.jpg",
