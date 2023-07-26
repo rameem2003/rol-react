@@ -53,7 +53,7 @@ export const appsData = [
         themeClor : "#54a0ff",
         appName : "Friend Meet",
         pageTitle : "friendmeet",
-        author : "",
+        author : "Abdul Baten",
         appLogo : "/androidapps/friendMeet/friendMeetLogo.png",
         appui1 : "/androidapps/friendMeet/app_ui_1.jpg",
         appui2 : "/androidapps/friendMeet/app_ui_2.jpg",
@@ -63,6 +63,23 @@ export const appsData = [
         appLink : "#",
         appLinkStatus : "App coming Soon",
         downloadBtnColor : "#2e86de"
+    },
+
+    {
+        id : 4,
+        themeClor : "linear-gradient(352deg, rgba(196,159,32,1) 0%, rgba(55,104,108,1) 100%)",
+        appName : "BECT CALCULATE",
+        pageTitle : "bect_calculate",
+        author : "Pabel Pathan & Mahabul Alam",
+        appLogo : "/androidapps/bect_calculate/bect_calculate.png",
+        appui1 : "/androidapps/bect_calculate/app_ui_1.jpg",
+        appui2 : "/androidapps/bect_calculate/app_ui_2.jpg",
+        appIcon : "/androidapps/bect_calculate/bect_calculate.png",
+        des : "A Multiperpose Calculation App. You Can Calculate Egg, BMI, Temperature, Area.",
+        // appLink : "/androidapps/rollite/rollite.apk",
+        appLink : "#",
+        appLinkStatus : "App coming Soon",
+        downloadBtnColor : "linear-gradient(311deg, rgba(196,159,32,1) 0%, rgba(55,104,108,1) 100%)"
     },
 
 
