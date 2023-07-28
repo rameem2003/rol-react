@@ -60,8 +60,8 @@ export const appsData = [
         appIcon : "/androidapps/friendMeet/friendMeetLogo.png",
         des : "A one to one Vedio and Voice calling app for Android. Lite weigh app and clean UI for better experience.",
         // appLink : "/androidapps/rollite/rollite.apk",
-        appLink : "#",
-        appLinkStatus : "App coming Soon",
+        appLink : "https://play.google.com/store/apps/details?id=com.rol.friendmeet",
+        appLinkStatus : "Go To Google Play",
         downloadBtnColor : "#2e86de"
     },
 
@@ -77,8 +77,8 @@ export const appsData = [
         appIcon : "/androidapps/bect_calculate/bect_calculate.png",
         des : "A Multiperpose Calculation App. You Can Calculate Egg, BMI, Temperature, Area.",
         // appLink : "/androidapps/rollite/rollite.apk",
-        appLink : "#",
-        appLinkStatus : "App coming Soon",
+        appLink : "https://play.google.com/store/apps/details?id=com.rol.bectCalculate",
+        appLinkStatus : "Go To Google Play",
         downloadBtnColor : "linear-gradient(311deg, rgba(196,159,32,1) 0%, rgba(55,104,108,1) 100%)"
     },
 
