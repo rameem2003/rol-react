@@ -1,18 +1,25 @@
 .members{
     margin-top: 100px;
 }
-.members .members-list{
+/* .members .members-list{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
+} */
+
+.slick-slide > div {
+  margin: 0 10px;
+}
+.slick-list {
+  margin: 0 -10px;
 }
 
 .members .members-list .member{
     width: 28%;
     padding: 20px;
     margin: 20px;
-    border-radius: 25px;
+    border-radius: 0 25px 0 25px;
     background-color: yellow;
     color: black;
     text-align: center;
