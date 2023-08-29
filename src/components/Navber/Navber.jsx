@@ -5,20 +5,19 @@ import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 
 function Navber() {
+  const [toggle, setToogle] = useState(false);
 
-    const [toggle, setToogle] = useState(false);
+  const handleToggle = () => {
+    setToogle(!toggle);
+    console.log(toggle);
+  };
 
-    const handleToggle = () => {
-        setToogle(!toggle)
-        console.log(toggle);
-    }
-
-    const navoff = () => {
-        setToogle(false)
-    }
+  const navoff = () => {
+    setToogle(false);
+  };
 
   return (
-    <div>
+    <>
       <nav>
         <div className="logo">
           <Link to="/">
@@ -27,11 +26,11 @@ function Navber() {
           </Link>
 
           <div className="tog" onClick={handleToggle}>
-            {toggle ? <FaTimes/> : <FaBars/>}
+            {toggle ? <FaTimes /> : <FaBars />}
           </div>
         </div>
 
-        <ul className={`menu ${toggle ? 'active' : ''}`} onClick={navoff}>
+        <ul className={`menu ${toggle ? "active" : ""}`} onClick={navoff}>
           <li>
             <Link to="/">Home</Link>
           </li>
@@ -52,7 +51,7 @@ function Navber() {
           </li>
         </ul>
       </nav>
-    </div>
+    </>
   );
 }
 

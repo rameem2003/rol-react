@@ -18,32 +18,30 @@
 
   padding: 10px;
   border-radius: 5px;
-
 }
 
-.our-contents .contents .content img{
-    max-width: 100%;
-    margin: 20px 0;
+.our-contents .contents .content img {
+  max-width: 100%;
+  margin: 20px 0;
 }
 
-.our-contents .contents .content .details a{
-    text-decoration: none;
+.our-contents .contents .content .details a {
+  text-decoration: none;
+  display: block;
+  font-size: 20px;
+  text-align: center;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 900px) {
+  .our-contents .contents {
     display: block;
-    font-size: 20px;
-    text-align: center;
-    background-color: red;
-    color: white;
-    border-radius: 5px;
-}
+  }
 
-
-@media screen and (max-width: 500px) {
-    .our-contents .contents{
-        display: block;
-    }
-
-    .our-contents .contents .content{
-        width: 90%;
-        margin: 20px auto;
-    }
+  .our-contents .contents .content {
+    width: 90%;
+    margin: 20px auto;
+  }
 }

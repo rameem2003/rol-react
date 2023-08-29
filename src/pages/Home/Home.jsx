@@ -7,8 +7,6 @@ import Project from "../../components/projects/Project";
 import LegendsPage from "../../components/legends/LegendsPage";
 import OurContents from "../../components/ourcontents/OurContents";
 
-
-
 function Home() {
   return (
     <div>
@@ -57,15 +55,13 @@ function Home() {
         </div>
       </div>
 
-      <Gallery/>
-      
-      <LegendsPage/>
+      <Gallery />
 
-      <OurContents/>
+      <LegendsPage />
 
-      <Project/>
+      <OurContents />
 
-
+      <Project />
     </div>
   );
 }

@@ -15,7 +15,7 @@ import clip9 from "../../../public/android_control_surveillace_robot/gallery/cli
 
 import firmwareAvatar from "../../assets/undraw_firmware_re_fgdy.svg";
 import appAvatar from "../../assets/undraw_gaming_re_cma2.svg";
-import hostAvater from "../../assets/undraw_pair_programming_re_or4x.svg"
+import hostAvater from "../../assets/undraw_pair_programming_re_or4x.svg";
 import LegendsPage from "../legends/LegendsPage";
 
 import { parts } from "../../data/surveilance_robot_parts_data";
@@ -49,10 +49,10 @@ function Surveilance_robot() {
             <h3>With Surveilance Support</h3>
             <p>
               This is a prototype project of ROBOT CAR based on ARDUINO
-              development board by Republic of Legends. Currently it is in BETA
-              stage. We are setuping our robot and maintaining stability of our
-              robot. Also we are working on ROBOT Firmware. Soon we release and
-              implement the firmware.
+              development board by Republic of Legends. Currently it is in{" "}
+              <b>PUBLIC RELEASE</b> stage. We are setuping our robot and
+              maintaining stability of our robot. Also we are working on ROBOT
+              Firmware.
             </p>
 
             <br />
@@ -433,21 +433,26 @@ function Surveilance_robot() {
         </div>
       </section>
 
-
       <section className="hosting">
         <div className="container">
-            <div className="github">
-                <div className="left">
-                    <img src={hostAvater} alt="" />
-                </div>
-                <div className="right">
-                    <h2>Project Managed by GITHUB</h2>
-
-                    <a href="https://github.com/rameem2003/Republic-of-Legends" target="_blank"> <FaGithub/> Go to GITHUB <i class="fa-solid fa-share"></i></a>
-                </div>
+          <div className="github">
+            <div className="left">
+              <img src={hostAvater} alt="" />
             </div>
+            <div className="right">
+              <h2>Project Managed by GITHUB</h2>
+
+              <a
+                href="https://github.com/rameem2003/Republic-of-Legends"
+                target="_blank"
+              >
+                {" "}
+                <FaGithub /> Go to GITHUB <i class="fa-solid fa-share"></i>
+              </a>
+            </div>
+          </div>
         </div>
-    </section>
+      </section>
     </div>
   );
 }
