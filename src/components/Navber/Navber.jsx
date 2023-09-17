@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import logo from "../../assets/logo/logo.jpg";
 import "./navber.css";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 
 function Navber() {
@@ -32,22 +32,22 @@ function Navber() {
 
         <ul className={`menu ${toggle ? "active" : ""}`} onClick={navoff}>
           <li>
-            <Link to="/">Home</Link>
+            <NavLink to="/">Home</NavLink>
           </li>
           <li>
-            <Link to="/gallery">Gallery</Link>
+            <NavLink to="/gallery">Gallery</NavLink>
           </li>
           <li>
-            <Link to="/legends">Legends</Link>
+            <NavLink to="/legends">Legends</NavLink>
           </li>
           <li>
-            <Link to="/ourcontents">Our Contents</Link>
+            <NavLink to="/ourcontents">Our Contents</NavLink>
           </li>
           <li>
-            <Link to="/projects">Our Projects</Link>
+            <NavLink to="/projects">Our Projects</NavLink>
           </li>
           <li>
-            <Link to="/appgallery">App Gellary</Link>
+            <NavLink to="/appgallery">App Gellary</NavLink>
           </li>
         </ul>
       </nav>
