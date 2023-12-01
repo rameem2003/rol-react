@@ -1,73 +1,87 @@
-.appDetails{
-    margin-top: 90px;
+.appDetails {
+  margin-top: 90px;
 }
 
-
-.app_body{
-    margin-top: 110px;
-    padding: 20px;
-    border-radius: 12px;
+.app_body {
+  margin-top: 110px;
+  padding: 20px;
+  border-radius: 12px;
 }
 
-.app_body{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.app_body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.app_body .left{
-    width: 50%;
+.app_body .left {
+  width: 50%;
 }
 
-.app_body .left h1{
-    font-weight: bolder;
-    margin-bottom: 30px;
+.app_body .left h1 {
+  font-weight: bolder;
+  margin-bottom: 30px;
 }
 
-.app_body .left a{
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    /* background-color: green; */
-    width: 225px;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 30px;
-    margin-top: 20px;
-    /* display: inline-block; */
-    font-size: 22px;
+.app_body .left a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: green; */
+  width: 225px;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+  margin-top: 20px;
+  /* display: inline-block; */
+  font-size: 22px;
 }
-.app_body .left i{
-    color: white;
+.app_body .left i {
+  color: white;
 }
-.app_body .right{
-    width: 50%;
-}
-
-.app_body .right{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.app_body .right {
+  width: 50%;
 }
 
-.app_body .right img{
-    width: 46%;
-    margin: 20px;
+.app_body .right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-@media screen and (max-width: 500px) {
-    .app_body{
-        display: block;
-    }
+.app_body .right img {
+  width: 46%;
+  margin: 20px;
+}
 
-    .app_body .left,
-    .app_body .right{
-        width: 100%;
-        text-align: center;
-    }
+@media (min-width: 320px) and (max-width: 575px) {
+  .app_body {
+    display: block;
+  }
 
-    .app_body .left a{
-        margin: 20px auto;
-    }
+  .app_body .left,
+  .app_body .right {
+    width: 100%;
+    text-align: center;
+  }
+
+  .app_body .left a {
+    margin: 20px auto;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .app_body {
+    display: block;
+  }
+
+  .app_body .left,
+  .app_body .right {
+    width: 100%;
+    text-align: center;
+  }
+
+  .app_body .left a {
+    margin: 20px auto;
+  }
 }

@@ -52,7 +52,7 @@
 /* about end */
 
 /* responsive */
-@media screen and (max-width: 900px) {
+@media (min-width: 320px) and (max-width: 575px) {
   .title {
     font-size: 18px;
   }
@@ -89,6 +89,189 @@
   .about .container .left .img-frame {
     width: 100%;
     height: 210px;
+    /* margin-bottom: 20px; */
+    margin: 20px auto;
+    box-sizing: border-box;
+  }
+
+  .members .members-list {
+    display: block;
+  }
+
+  .members .members-list .member {
+    width: 100%;
+    margin: 20px auto;
+  }
+
+  .projects .project-box img {
+    height: 200px;
+  }
+
+  .project-inner h1 {
+    font-size: 27px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .title {
+    font-size: 18px;
+  }
+
+  .banner {
+    margin-top: 75px;
+    height: 36vh;
+    background-position: top center;
+    background-attachment: initial;
+    padding: 0 20px;
+  }
+  .banner h1 {
+    font-size: 48px;
+    font-weight: normal;
+  }
+
+  .banner h3 {
+    font-size: 30px;
+    font-weight: normal;
+  }
+
+  .about .container {
+    display: block !important;
+    /* flex-direction: column; */
+    padding: 0;
+  }
+
+  .about .container .left,
+  .about .container .right {
+    width: 100% !important;
+    text-align: center !important;
+  }
+
+  .about .container .left .img-frame {
+    width: 100%;
+    height: 210px;
+    /* margin-bottom: 20px; */
+    margin: 20px auto;
+    box-sizing: border-box;
+  }
+
+  .members .members-list {
+    display: block;
+  }
+
+  .members .members-list .member {
+    width: 100%;
+    margin: 20px auto;
+  }
+
+  .projects .project-box img {
+    height: 200px;
+  }
+
+  .project-inner h1 {
+    font-size: 27px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .title {
+    font-size: 18px;
+  }
+
+  .banner {
+    margin-top: 75px;
+    height: 70vh;
+    background-position: top center;
+    background-attachment: initial;
+    padding: 0 20px;
+  }
+  .banner h1 {
+    font-size: 70px;
+    font-weight: normal;
+  }
+
+  .banner h3 {
+    font-size: 50px;
+    font-weight: normal;
+  }
+
+  .about .container {
+    display: block !important;
+    /* flex-direction: column; */
+    padding: 0;
+  }
+
+  .about .container .left,
+  .about .container .right {
+    width: 100% !important;
+    text-align: center !important;
+  }
+
+  .about .container .left .img-frame {
+    width: 100%;
+    height: 326px;
+    /* margin-bottom: 20px; */
+    margin: 20px auto;
+    box-sizing: border-box;
+  }
+
+  .members .members-list {
+    display: block;
+  }
+
+  .members .members-list .member {
+    width: 100%;
+    margin: 20px auto;
+  }
+
+  .projects .project-box img {
+    height: 200px;
+  }
+
+  .project-inner h1 {
+    font-size: 27px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .title {
+    font-size: 18px;
+  }
+
+  .banner {
+    margin-top: 67px;
+    height: 70vh;
+    background-position: top center;
+    background-attachment: initial;
+    padding: 0 20px;
+  }
+  .banner h1 {
+    font-size: 70px;
+    font-weight: normal;
+  }
+
+  .banner h3 {
+    font-size: 50px;
+    font-weight: normal;
+  }
+
+  .about .container {
+    display: block !important;
+    /* flex-direction: column; */
+    padding: 0;
+  }
+
+  .about .container .left,
+  .about .container .right {
+    width: 100% !important;
+    text-align: center !important;
+  }
+
+  .about .container .left .img-frame {
+    width: 100%;
+    height: 440px;
     /* margin-bottom: 20px; */
     margin: 20px auto;
     box-sizing: border-box;

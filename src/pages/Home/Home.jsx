@@ -57,7 +57,7 @@ function Home() {
 
       <Gallery />
 
-      <LegendsPage />
+      {/* <LegendsPage /> */}
 
       <OurContents />
 

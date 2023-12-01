@@ -15,15 +15,19 @@ function Appgallery() {
           <h1>Our Projects</h1>
         </div>
 
-        <div className="apps_section">
+        <div className="row">
           {apps.map((app) => {
             return (
-              <div className="app" key={app.id}>
-                <img src={app.appIcon} alt="" />
-                <h3>{app.appName}</h3>
-                <span>by {app.author}</span>
+              <div className="col-lg-4 col-md-4 col-sm-6 col-12">
+                <div className="app" key={app.id}>
+                  <img src={app.appIcon} alt="" />
+                  <h3>{app.appName}</h3>
+                  <span>by {app.author}</span>
 
-                <Link className="appDetails" to={app.pageTitle}>Details</Link>
+                  <Link className="appDetails" to={app.pageTitle}>
+                    Details
+                  </Link>
+                </div>
               </div>
             );
           })}

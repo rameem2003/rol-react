@@ -74,7 +74,7 @@ nav .menu li:last-child {
   margin: 0;
 }
 
-@media screen and (max-width: 900px) {
+@media (min-width: 320px) and (max-width: 575px) {
   nav {
     display: block;
     padding: 10px 20px;
@@ -124,5 +124,152 @@ nav .menu li:last-child {
 
   nav .menu li {
     margin: 35px 0;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  nav {
+    display: block;
+    padding: 10px 20px;
+  }
+
+  nav .logo {
+    width: 100%;
+  }
+
+  nav .logo a img {
+    width: 15%;
+  }
+
+  nav .logo a h1 {
+    font-size: 40px;
+  }
+
+  nav .logo .tog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+  }
+
+  nav .menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: yellow;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    transition: 0.5s linear;
+  }
+
+  nav .menu.active {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+
+  nav .menu {
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav .menu li {
+    margin: 35px 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  nav {
+    display: block;
+    padding: 10px 20px;
+  }
+
+  nav .logo {
+    width: 100%;
+  }
+
+  nav .logo a img {
+    width: 15%;
+  }
+
+  nav .logo a h1 {
+    font-size: 40px;
+  }
+
+  nav .logo .tog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+  }
+
+  nav .menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: yellow;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    transition: 0.5s linear;
+  }
+
+  nav .menu.active {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+
+  nav .menu {
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav .menu li {
+    margin: 35px 0;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  nav {
+    display: flex;
+    padding: 10px 20px;
+  }
+
+  nav .logo {
+    width: 20%;
+  }
+
+  nav .logo a img {
+    width: 15%;
+  }
+
+  nav .logo a h1 {
+    font-size: 40px;
+  }
+
+  nav .logo .tog {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+  }
+
+  nav .menu {
+    position: static;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin: 0;
+    clip-path: none;
+  }
+
+  nav .menu li {
+    margin: 0 20px;
+    font-size: 24px;
   }
 }
