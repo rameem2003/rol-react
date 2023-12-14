@@ -27,9 +27,12 @@ function App() {
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/legends" element={<LegendsPage />} />
           <Route path="/projects" element={<Project />} />
-          <Route path="/ourcontents" element={<OurContents/>} />
-          <Route path="/android-control-surveilance-robot" element={<Surveilance_robot/>} />
-          <Route path="*" element={<Error/>} />
+          <Route path="/ourcontents" element={<OurContents />} />
+          <Route
+            path="/android-control-surveilance-robot"
+            element={<Surveilance_robot />}
+          />
+          <Route path="*" element={<Error />} />
         </Routes>
         <Footer />
         {/* <Alert /> */}

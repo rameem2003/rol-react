@@ -5,12 +5,36 @@ import { Link } from "react-router-dom";
 import androidLogo from "../../assets/android.png";
 import projectPic from "../../../public/android_control_surveillace_robot/gallery/clip1.jpg";
 import wowchat from "../../../public/siteprojects/wowchat/wowChat.png";
+import omah from "../../../public/siteprojects/omah-state/omah.png";
 function Project() {
   return (
     <div className="projects">
       <div className="container">
         <div className="title">
           <h1>Our Projects</h1>
+        </div>
+        <div className="siteProject my-5">
+          <img src={wowchat} alt="" />
+          <div className="siteProjectInner">
+            <h1>WOW Chat</h1>
+            <p>A Chating Application for Web and windows oparating system</p>
+            <h3>by Mahmmood Hassan Rameem</h3>
+            <a href="https://getstarted-wowchat.netlify.app/" target="_blank">
+              Read More
+            </a>
+          </div>
+        </div>
+
+        <div className="siteProject my-5">
+          <img src={omah} alt="" />
+          <div className="siteProjectInner">
+            <h1>Omah State</h1>
+            <p>A Real State Company Portfolio Website</p>
+            <h3>by Jahedul Islam Rasel</h3>
+            <a href="https://omahstate.vercel.app/" target="_blank">
+              Read More
+            </a>
+          </div>
         </div>
 
         <div className="project-box">
@@ -32,18 +56,6 @@ function Project() {
           <h1>Our Android Projects</h1>
           <img src={androidLogo} alt="" />
           <Link to="/appgallery">Let's Check Out</Link>
-        </div>
-
-        <div className="siteProject">
-          <img src={wowchat} alt="" />
-          <div className="siteProjectInner">
-            <h1>WOW Chat</h1>
-            <p>A Chating Application for Web and windows oparating system</p>
-            <h3>by Mahmmood Hassan Rameem</h3>
-            <a href="https://getstarted-wowchat.netlify.app/" target="_blank">
-              Read More
-            </a>
-          </div>
         </div>
       </div>
     </div>
