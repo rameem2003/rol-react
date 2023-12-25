@@ -6,6 +6,7 @@ import androidLogo from "../../assets/android.png";
 import projectPic from "../../../public/android_control_surveillace_robot/gallery/clip1.jpg";
 import wowchat from "../../../public/siteprojects/wowchat/wowChat.png";
 import omah from "../../../public/siteprojects/omah-state/omah.png";
+import brmart from "../../../public/siteprojects/brmart/brMart.png";
 function Project() {
   return (
     <div className="projects">
@@ -13,7 +14,20 @@ function Project() {
         <div className="title">
           <h1>Our Projects</h1>
         </div>
-        <div className="siteProject my-5">
+
+        <div className="siteProject my-5" id="brmart">
+          <img src={brmart} alt="" />
+          <div className="siteProjectInner">
+            <h1>BR Fashion Mart</h1>
+            <p>A E-Commerce Clothing Website Frontend Part</p>
+            <h3>by Fahmida Yeasmin</h3>
+            <a href="https://br-fashion-mart.netlify.app/" target="_blank">
+              Read More
+            </a>
+          </div>
+        </div>
+
+        <div className="siteProject my-5" id="wowchat">
           <img src={wowchat} alt="" />
           <div className="siteProjectInner">
             <h1>WOW Chat</h1>
@@ -25,7 +39,7 @@ function Project() {
           </div>
         </div>
 
-        <div className="siteProject my-5">
+        <div className="siteProject my-5" id="omah">
           <img src={omah} alt="" />
           <div className="siteProjectInner">
             <h1>Omah State</h1>
