@@ -1,6 +1,7 @@
 import React from "react";
-import "./project.css";
 import { Link } from "react-router-dom";
+import { ourProjects } from "../../data/ourProject";
+import "./project.css";
 
 import androidLogo from "../../assets/android.png";
 import projectPic from "../../../public/android_control_surveillace_robot/gallery/clip1.jpg";
@@ -15,41 +16,23 @@ function Project() {
           <h1>Our Projects</h1>
         </div>
 
-        <div className="siteProject my-5" id="brmart">
-          <img src={brmart} alt="" />
-          <div className="siteProjectInner">
-            <h1>BR Fashion Mart</h1>
-            <p>A E-Commerce Clothing Website Frontend Part</p>
-            <h3>by Fahmida Yeasmin</h3>
-            <a href="https://br-fashion-mart.netlify.app/" target="_blank">
-              Read More
-            </a>
-          </div>
-        </div>
+        {ourProjects.map((project) => {
+          return (
+            <div className="siteProject my-5" id={project.tag}>
+              <img src={project.thumb} alt="" />
+              <div className="siteProjectInner">
+                <h1>{project.projectName}</h1>
+                <p>{project.about}</p>
+                <h3>by {project.owner}</h3>
+                {/* <a href={project.projectLink} target="_blank">
+                  Read More
+                </a> */}
 
-        <div className="siteProject my-5" id="wowchat">
-          <img src={wowchat} alt="" />
-          <div className="siteProjectInner">
-            <h1>WOW Chat</h1>
-            <p>A Chating Application for Web and windows oparating system</p>
-            <h3>by Mahmmood Hassan Rameem</h3>
-            <a href="https://getstarted-wowchat.netlify.app/" target="_blank">
-              Read More
-            </a>
-          </div>
-        </div>
-
-        <div className="siteProject my-5" id="omah">
-          <img src={omah} alt="" />
-          <div className="siteProjectInner">
-            <h1>Omah State</h1>
-            <p>A Real State Company Portfolio Website</p>
-            <h3>by Jahedul Islam Rasel</h3>
-            <a href="https://omahstate.vercel.app/" target="_blank">
-              Read More
-            </a>
-          </div>
-        </div>
+                <Link to={`/project/${project.tag}`}>View</Link>
+              </div>
+            </div>
+          );
+        })}
 
         <div className="project-box">
           <img src={projectPic} alt="" />

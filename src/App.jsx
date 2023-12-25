@@ -9,6 +9,7 @@ import Footer from "./components/footer/Footer";
 import Gallery from "./components/imegegallery/Gallery";
 import Appdetails from "./pages/appgallery/Appdetails";
 import Project from "./components/projects/Project";
+import ShowProject from "./components/projects/ShowProject";
 import LegendsPage from "./components/legends/LegendsPage";
 import Alert from "./components/alert/Alert";
 import Surveilance_robot from "./components/ACSR/Surveilance_robot";
@@ -27,6 +28,7 @@ function App() {
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/legends" element={<LegendsPage />} />
           <Route path="/projects" element={<Project />} />
+          <Route path="/project/:name" element={<ShowProject />} />
           <Route path="/ourcontents" element={<OurContents />} />
           <Route
             path="/android-control-surveilance-robot"

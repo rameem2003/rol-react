@@ -1,9 +1,14 @@
 import React from "react";
-import { FaFacebook, FaInstagram, FaSquareYoutube, FaGithub } from "react-icons/fa6";
-import './footer.css'
+import {
+  FaFacebook,
+  FaInstagram,
+  FaSquareYoutube,
+  FaGithub,
+} from "react-icons/fa6";
+import "./footer.css";
 
 function Footer() {
-    let date = new Date();
+  let date = new Date();
   return (
     <div>
       <footer>
@@ -15,7 +20,7 @@ function Footer() {
               <ul>
                 <li>
                   <a href="https://www.facebook.com/we.are.republicoflegends2022">
-                    <FaFacebook/>
+                    <FaFacebook />
                   </a>
                 </li>
                 {/* <li>
@@ -25,12 +30,12 @@ function Footer() {
                 </li> */}
                 <li>
                   <a href="https://www.youtube.com/@we.are.republicoflegends2022">
-                    <FaSquareYoutube/>
+                    <FaSquareYoutube />
                   </a>
                 </li>
                 <li>
                   <a href="https://github.com/rol2022">
-                    <FaGithub/>
+                    <FaGithub />
                   </a>
                 </li>
               </ul>
@@ -41,7 +46,8 @@ function Footer() {
 
           <div className="lower-footer">
             <h4>
-              {date.getFullYear()} Team Republic of Legends. All Rights
+              {" "}
+              &copy; {date.getFullYear()} Team Republic of Legends. All Rights
               Resurved.
             </h4>
           </div>
