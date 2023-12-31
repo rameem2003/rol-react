@@ -42,7 +42,7 @@ const ShowProject = () => {
         <h2 className="mt-5">Technology</h2>
         <div className="d-flex">
           {filterProject[0].tech.map((t) => {
-            return <img className="techimg" src={t} alt="" />;
+            return <img className="techimg img-fluid" src={t} alt="" />;
           })}
         </div>
       </div>

@@ -16,7 +16,7 @@ export const ourProjects = [
     owner: "Mahmmood Hassan Rameem",
     projectLink: "https://getstarted-wowchat.netlify.app/",
     thumb: "/siteprojects/wowchat/wowChat.png",
-    tech: ["/icons/react.png", "/icons/bootstrap.png"],
+    tech: ["/icons/react.png", "/icons/bootstrap.png", "/icons/firebase.png"],
   },
   {
     tag: "omah",
